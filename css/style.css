@@ -1,21 +1,106 @@
+/* regole generali */
+
 body {
     font-family: Arial, sans-serif;
 }
+
+section {
+    padding: 30px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.my-btn {
+    display: inline-block;
+    color: white;
+    background-color: #2d64e6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* CSS header */
+
+#marchio {
+    background-color: black;
+}
+
+#marchio img {
+    margin: 10px 0;
+    height: 20px;
+}
+
+/* parte nav */
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+nav ul li img {
+    height: 25px;
+}
+
+/* CSS JUMBO parte alta */
 
 #jumbo-top {
     background-image: url(../img/jumbo-bg.png);
     height: 675px;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
+}
+
+#jumbo-top img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#jumbo-top .my-btn {
+    background-color: #cd3d0f;
 }
 
 .my-altezza {
     height: 100%;
 }
 
-.my-altezza-95 {
-    height: 95%;
+.my-altezza-90 {
+    height: 90%;
 }
+
+
+/* CSS JUMBO */
+
+#jumbo {
+    padding-top: 0;
+}
+
+/* CSS JUMBO parte bassa */
+
+#jumbo-bottom {
+    margin-top: 20px;
+}
+
+#jumbo-bottom img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#jumbo-bottom .my-contenitore-img {
+    margin-bottom: 20px;
+}
+
+
+/* CSS MAIN */
+
+/* sezione PLAYSTATION 5 */
+
+#ps-5 img {
+    max-width: 100%;
+}
+
 
 #nuove-uscite-top {
     height: 700px;
@@ -49,7 +134,6 @@ section {
 }
 
 .col {
-    height: 100px;
     background-color: yellowgreen;
     border: 1px solid black;
 }
