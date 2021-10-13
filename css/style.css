@@ -22,6 +22,21 @@ h2 {
     margin-top: 20px;
 }
 
+#jumbo-top .my-btn, #nuove-uscite-top .my-btn {
+    background-color: #cd3d0f;
+}
+
+img {
+    max-width: 100%;
+}
+
+#jumbo-top img, #nuove-uscite-top img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+
 /* CSS header */
 
 #marchio {
@@ -31,6 +46,7 @@ h2 {
 #marchio img {
     margin: 10px 0;
     height: 20px;
+    width: auto;
 }
 
 /* parte nav */
@@ -41,6 +57,7 @@ h2 {
 
 nav ul li img {
     height: 25px;
+    width: auto;
 }
 
 /* CSS JUMBO parte alta */
@@ -51,15 +68,6 @@ nav ul li img {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-}
-
-#jumbo-top img {
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-#jumbo-top .my-btn {
-    background-color: #cd3d0f;
 }
 
 .my-altezza {
@@ -83,8 +91,7 @@ nav ul li img {
     margin-top: 20px;
 }
 
-#jumbo-bottom img {
-    max-width: 100%;
+#jumbo-bottom img, #nuove-uscite-bottom img {
     border-radius: 10px;
 }
 
@@ -97,9 +104,9 @@ nav ul li img {
 
 /* sezione PLAYSTATION 5 */
 
-#ps-5 img {
-    max-width: 100%;
-}
+
+
+/* sezione NUOVE USCITE */
 
 
 #nuove-uscite-top {
@@ -108,6 +115,17 @@ nav ul li img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#nuove-uscite-bottom {
+    background-color: #1f1f1f;
+}
+
+
+/* sezione PlayStation 4 */
+
+#ps-4 .my-btn {
+    margin-top: 10px;
 }
 
 #banner-plus {
