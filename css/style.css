@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#jumbo-top {
+    background-image: url(../img/jumbo-bg.png);
+    height: 675px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.my-altezza {
+    height: 100%;
+}
+
+.my-altezza-95 {
+    height: 95%;
+}
+
+#nuove-uscite-top {
+    height: 700px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-plus {
+    background-color: #bebcbb;
+}
+
+#banner-now {
+    background-color: #161c3b;
+}
+
+footer {
+    background-color: #00439c;
+}
+
+
+/* debug */
+
+header {
+    background-color: aqua;
+}
+
+section {
+    background-color: violet;
+}
+
+.col {
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+}
+
