@@ -43,6 +43,10 @@ ul {
     list-style-type: none;
 }
 
+#jumbo-bottom img, #nuove-uscite-bottom img {
+    border-radius: 10px;
+}
+
 
 
 /* CSS HEADER */
@@ -53,6 +57,8 @@ header {
     width: 100%;
     z-index: 1;
 }
+
+/* parte marchio Sony */
 
 #marchio {
     background-color: black;
@@ -90,6 +96,7 @@ nav #nav-intero {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: Helvetica, sans-serif;
 }
 
 nav .my-btn {
@@ -191,10 +198,6 @@ nav #burger-menu div {
     margin-top: 30px;
 }
 
-#jumbo-bottom img, #nuove-uscite-bottom img {
-    border-radius: 10px;
-}
-
 #jumbo-bottom .my-contenitore-img {
     margin-bottom: 20px;
     padding: 3px;
@@ -281,7 +284,7 @@ nav #burger-menu div {
     margin-top: 10px;
 }
 
-/* banner ps-plus e ps-now */
+/* banner PS-PLUS e PS-NOW */
 
 #banner-plus {
     background-color: #bebcbb;
@@ -291,14 +294,14 @@ nav #burger-menu div {
     color: black;
 }
 
-#banner-plus img.my-small, #banner-now img.my-small {
-    height: 50px;
-    margin-bottom: 20px;
-}
-
 #banner-plus .my-btn {
     background-color: #d9dadc;
     color: #2d64e6;
+}
+
+#banner-plus img.my-small, #banner-now img.my-small {
+    height: 50px;
+    margin-bottom: 20px;
 }
 
 #banner-now {
@@ -328,7 +331,7 @@ nav #burger-menu div {
     margin: 20px 0;
 }
 
-/* sezione social */
+/* sezione SOCIAL */
 
 #social img {
     margin-bottom: 20px;
@@ -337,6 +340,7 @@ nav #burger-menu div {
 #social h3 {
     margin-bottom: 50px;
 }
+
 
 /* CSS FOOTER */
 
@@ -362,7 +366,6 @@ footer #globo img {
 }
 
 footer ul {
-    list-style-type: none;
     margin-bottom: 2rem;
 }
 
