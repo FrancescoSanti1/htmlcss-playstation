@@ -198,13 +198,36 @@ nav #nav-burger ul li {
     margin-bottom: 10px;
 }
 
-nav #nav-burger ul li a:hover .freccia {
+nav #nav-burger ul li:hover .freccia {
     display: none;
 }
 
-nav #nav-burger ul li a:hover .freccia.blu {
+nav #nav-burger ul li:hover .freccia.blu {
     display: inline-block;
     rotate: 180deg;
+}
+
+nav #nav-burger .my-dropdown-burger {
+    background-color: rgb(224, 224, 224);
+    margin: 10px 0 0 30px;
+    display: none;
+}
+
+nav #nav-burger ul li:hover .my-dropdown-burger {
+    display: block;
+}
+
+nav #nav-burger .my-dropdown-burger-2 {
+    background-color: rgb(194, 194, 194);
+    display: none;
+}
+
+nav #nav-burger ul li .my-dropdown-burger li:hover .my-dropdown-burger-2 {
+    display: block;
+}
+
+nav #nav-burger .my-dropdown-burger-2 li {
+    display: inline-block;
 }
 
 nav #nav-burger .my-btn {
@@ -262,6 +285,7 @@ nav #nav-burger input {
 .my-dropdown {
     position: absolute;
     top: 80px;
+    left: 0;
     background-color: rgb(241, 240, 240);
     width: 100%;
     text-align: center;
